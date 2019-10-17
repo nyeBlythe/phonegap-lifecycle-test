@@ -42,3 +42,13 @@ function updateDisplay() {
 	    
 	console.log("resume");
     }
+
+
+var key = "pen";
+var value = "blue";
+
+window.localStorage.setItem(key, value);
+
+var value = window.localStorage.getItem(key);
+
+alert(value);
