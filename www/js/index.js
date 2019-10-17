@@ -51,4 +51,4 @@ window.localStorage.setItem(key, value);
 
 var value = window.localStorage.getItem(key);
 
-alert(value);
+$("values").text(value);
